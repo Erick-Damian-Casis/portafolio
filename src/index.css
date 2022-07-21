@@ -34,7 +34,12 @@
 
  .text-navbar{
      @apply
-     lg:mr-7
-     p-6
-     lg:mr-10
+     py-2.5
+     px-5
+     mr-1
+     rounded-lg
+     hover:bg-gray-700
+     transition
+     duration-500
+     ease-in-out
  }
