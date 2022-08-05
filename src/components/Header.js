@@ -4,10 +4,11 @@ import photo from "../image/photo.webp"
 function Header (){
 
     return(
-        <section className="p-5"  style={{ backgroundImage: `url(${image})` }}>
-            <div  className="flex justify-center flex-col">
-                <img src={photo} alt="" className="rounded-full h-45 w-45 m-auto"/>
-                <p className="text-5xl font-bold text-white leading-normal w-12 m-auto">Erick Damian Developer Full Stack</p>
+        <section className="flex justify-center m-auto drop-shadow-2xl pb-0.5 bg-sky-500/50"  style={{ backgroundImage: `url(${image})` }}>
+            <div  className="">
+                <img src={photo} alt="" className="rounded-full h-45 w-45 m-auto p-10"/>
+                <h1 className="text-6xl mb-1 tracking-tight font-normal text-center text-white leading-normal ">ERICK DAMIAN</h1>
+                <p className="text-4xl mb-8  font-normal text-center text-white leading-normal">Developer Full Stack</p>
             </div>
         </section>
 

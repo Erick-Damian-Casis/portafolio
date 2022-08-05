@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "name": "Laravel",
+        "language":"PHP",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/800px-Laravel.svg.png",
+        "description": "Laravel para el desarrollo backend facilitando la creación de páginas webs y aplicaciones."
+    },
+    {
+        "id": 2,
+        "name": "React.js",
+        "language":"JavaScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/800px-React.svg.png",
+        "description": "React es una librería focalizada en el desarrollo de interfaces de usuario, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces."
+    },
+    {
+        "id": 3,
+        "name": "Angular",
+        "language":"JavaScript",
+        "image": "https://cdn.worldvectorlogo.com/logos/angular-icon.svg",
+        "description": "Angular es un framework opensource desarrollado por Google para facilitar la creación y programación de aplicaciones web de una sola página."
+    },
+    {
+        "id": 4,
+        "name": "Node.js",
+        "language":"JavaScript",
+        "image": "https://www.seekpng.com/png/full/80-803529_vector-javascript-node-js-jpg-black-and-white.png",
+        "description": "Ideado como un entorno de ejecución de JavaScript orientado a eventos asíncronos, está diseñado para crear aplicaciones network escalables."
+    },
+    {
+        "id": 5,
+        "name": "React-native",
+        "language":"JavaScript",
+        "image": "https://cdn.kinandcarta.com/-/media-assets/images/kincarta/insights/2022/02/react-native/react_hero.png?as=0&iar=0&w=1920&rev=61e1dad3af7e465e9544cf8490237772&extension=webp&hash=15AC1170ADEB7C885F07C74ED6D57E8D   ",
+        "description": " React Native es un framework para la creación de aplicaciones nativas para iOS y Android."
+    }]
