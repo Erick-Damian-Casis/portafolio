@@ -1,21 +1,14 @@
-import NavBar from "./components/NavBar";
-import Header from "./components/Header";
-import Project from "./components/Project";
-import Technology from "./components/Technology";
-import Contact from "./components/Contact";
-import Network from "./components/Network";
+import Home from "./pages/Home"
+import { Routes, Route, Link } from "react-router-dom";
 
 
 function App() {
   
   return (
     <div className="App">
-        <NavBar/>
-        <Header/>
-        <Technology/>
-        <Project/>
-        <Contact/>
-        <Network/>
+        <Routes>
+            <Route path="/" element={<Home />} />
+        </Routes>
     </div>
   );
 }

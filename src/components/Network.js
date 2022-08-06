@@ -1,6 +1,6 @@
 function Network(){
     return(
-        <div className="m-auto p-8 bg-black flex">
+        <div className="m-auto p-8 bg-black flex drop-shadow-2xl">
             <div className="m-5 flex">
                 <img alt="" className="bg-white rounded-full hover:bg-blue-500" src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png"/>
                 <p className="ml-2 pt-1 text-white text-sm">erick_casis1998@hotmail.com</p>
