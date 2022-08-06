@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title":"Pokedex",
+        "description":"Proyecto realizado con react.js y el consumo de la Api 'pokeApi', permitiendo la busqueda un pokemon",
+        "url": "https://github.com/Erick-Damian-Casis/pokedex"
+    },
+    {
+        "id": 2,
+        "title":"PoKedex",
+        "description":"Proyecto realizado con react-native y el consumo de la Api 'pokeApi', permitiendo el la busqueda de un pokemon",
+        "url": "https://github.com/Erick-Damian-Casis/pokedex-dispositivo-moviles"
+    },
+    {
+        "id": 3,
+        "title":"Time movie",
+        "description":"Buscador de peliculas con react-native",
+        "url": ""
+    },
+    {
+        "id": 4,
+        "title":"Tres en raya",
+        "description":"Juego realizado con react.js",
+        "url": "https://github.com/Erick-Damian-Casis/tres-en-raya"
+    },
+    {
+        "id": 5,
+        "title":"Selector rapido",
+        "description":"Juego de seleccion rapida de estrellas, calculando las sumas o el igual de numeros con estrellas",
+        "url": "https://github.com/Erick-Damian-Casis/selector-rapido"
+    },
+    {
+        "id": 6,
+        "title":"Tarjetas GitHub",
+        "description":"Tarjetas git hub consumiendo el api de git-hub",
+        "url": "https://github.com/Erick-Damian-Casis/selector-rapido"
+    },
+    {
+        "id": 7,
+        "title":"Yavi blog",
+        "description":"Api de blog de noticias usando laravel",
+        "url": "https://github.com/Erick-Damian-Casis/selector-rapido"
+    },
+    {
+        "id": 8,
+        "title":"Cards author",
+        "description":"Pagina de tarjetas con fraces y su autor  con node.js, html y css",
+        "url": "https://github.com/Erick-Damian-Casis/cards-author"
+    },
+    {
+        "id": 9,
+        "title":"Movie search",
+        "description":"Buscador de peliculas con react.js",
+        "url": "https://github.com/Erick-Damian-Casis/movie-search"
+    }
+]

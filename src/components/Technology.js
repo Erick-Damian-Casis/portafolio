@@ -5,8 +5,8 @@ function Technology(){
 
     const [technologyData]=useState(data);
 
-    return(<div className="pt-8">
-            <p className="text-3xl font-normal mb-1 text-center text-white">TECNOLOGÍAS</p>
+    return(<div id="technology" className="p-16 bg-gray-100">
+            <p className="m-0 text-4xl font-semibold leading-tight tracking-tight text-center text-black border-0 border-gray-200 sm:text-4xl">TECNOLOGÍAS</p>
         <div className="p-5 m-auto flex grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
             {technologyData.map(value=>{
                 return(

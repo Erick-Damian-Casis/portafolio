@@ -4,14 +4,53 @@
         "name": "Laravel",
         "language":"PHP",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/800px-Laravel.svg.png",
-        "description": "Laravel para el desarrollo backend facilitando la creación de páginas webs y aplicaciones."
+        "description": "Laravel para el desarrollo backend facilitando la creación de páginas webs y aplicaciones.",
+        "projects": [
+            {
+                "id": 7,
+                "title":"Yavi blog",
+                "description":"Una api para un blog de noticias",
+                "url": "https://github.com/Erick-Damian-Casis/selector-rapido"
+            }
+        ]
     },
     {
         "id": 2,
         "name": "React.js",
         "language":"JavaScript",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/800px-React.svg.png",
-        "description": "React es una librería focalizada en el desarrollo de interfaces de usuario, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces."
+        "description": "React es una librería focalizada en el desarrollo de interfaces de usuario, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces.",
+        "project":[
+            {
+                "id": 1,
+                "title":"Pokedex",
+                "description":"Proyecto realizado con react.js y el consumo de la Api 'pokeApi', permitiendo la busqueda un pokemon",
+                "url": "https://github.com/Erick-Damian-Casis/pokedex"
+            },
+            {
+                "id": 2,
+                "title":"Movie search",
+                "description":"Buscador de peliculas con react.js",
+                "url": "https://github.com/Erick-Damian-Casis/movie-search"
+            },
+            {
+                "id": 3,
+                "title":"Tres en raya",
+                "description":"Juego realizado con react.js",
+                "url": "https://github.com/Erick-Damian-Casis/tres-en-raya"
+            },{
+                "id": 4,
+                "title":"Selector rapido",
+                "description":"Juego de seleccion rapida de estrellas, calculando las sumas o el igual de numeros con estrellas",
+                "url": "https://github.com/Erick-Damian-Casis/selector-rapido"
+            },
+            {
+                "id": 5,
+                "title":"Tarjetas GitHub",
+                "description":"Tarjetas git hub consumiendo el api de git-hub",
+                "url": "https://github.com/Erick-Damian-Casis/selector-rapido"
+            }
+        ]
     },
     {
         "id": 3,
@@ -32,5 +71,18 @@
         "name": "React-native",
         "language":"JavaScript",
         "image": "https://cdn.kinandcarta.com/-/media-assets/images/kincarta/insights/2022/02/react-native/react_hero.png?as=0&iar=0&w=1920&rev=61e1dad3af7e465e9544cf8490237772&extension=webp&hash=15AC1170ADEB7C885F07C74ED6D57E8D   ",
-        "description": " React Native es un framework para la creación de aplicaciones nativas para iOS y Android."
+        "description": " React Native es un framework para la creación de aplicaciones nativas para iOS y Android.",
+        "projects":[{
+                "id": 1,
+                "title":"PoKedex",
+                "description":"Proyecto realizado con react-native y el consumo de la Api 'pokeApi', permitiendo el la busqueda de un pokemon",
+                "url": "https://github.com/Erick-Damian-Casis/pokedex-dispositivo-moviles"
+            },
+            {
+                "id": 2,
+                "title":"Time movie",
+                "description":"Buscador de peliculas con react-native",
+                "url": ""
+            }
+        ]
     }]

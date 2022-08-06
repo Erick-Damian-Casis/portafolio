@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import Project from "./components/Project";
 import Technology from "./components/Technology";
+import Contact from "./components/Contact";
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
         <Header/>
         <Technology/>
         <Project/>
+        <Contact/>
     </div>
   );
 }
