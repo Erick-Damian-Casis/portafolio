@@ -44,3 +44,6 @@
      duration-500
      ease-in-out
  }
+ html{
+     scroll-behavior: smooth;
+ }

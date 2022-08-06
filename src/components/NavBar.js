@@ -12,7 +12,7 @@ function NavBar(){
                             <a href="#technology" className="text-navbar">Tecnologias</a>
                             <a href="#project" className="text-navbar">Proyectos</a>
                             <a href="#contact" className="text-navbar">Contacto</a>
-                            <a href="#networks" className="text-navbar">Redes</a>
+                            <a href="#network" className="text-navbar">Redes</a>
                         </div>
                     </div>
                 </div>
