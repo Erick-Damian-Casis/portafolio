@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Project from "./components/Project";
 import Technology from "./components/Technology";
 import Contact from "./components/Contact";
+import Network from "./components/Network";
+
 
 function App() {
   
@@ -13,6 +15,7 @@ function App() {
         <Technology/>
         <Project/>
         <Contact/>
+        <Network/>
     </div>
   );
 }

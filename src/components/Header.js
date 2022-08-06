@@ -4,7 +4,7 @@ import photo from "../image/photo.webp"
 function Header (){
 
     return(
-        <section  className="flex justify-center m-auto drop-shadow-2xl pb-0.5"  style={{ backgroundImage: `url(${image})` }}>
+        <section className="flex justify-center m-auto drop-shadow-2xl pb-0.5"  style={{ backgroundImage: `url(${image})` }}>
             <div  className="shadow-pink-600">
                <div>
                    <img src={photo} alt="" className="rounded-full h-45 w-45 m-auto p-10"/>
