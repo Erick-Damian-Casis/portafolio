@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portafolio-erick-damian.github.io/static/css/main.92df725f.css",
-    "main.js": "/portafolio-erick-damian.github.io/static/js/main.0dca970f.js",
+    "main.css": "/portafolio-erick-damian.github.io/static/css/main.110708b2.css",
+    "main.js": "/portafolio-erick-damian.github.io/static/js/main.89359eed.js",
     "static/js/787.fa182d1e.chunk.js": "/portafolio-erick-damian.github.io/static/js/787.fa182d1e.chunk.js",
     "static/media/fondo.jpg": "/portafolio-erick-damian.github.io/static/media/fondo.b4a3f1f60b51e1519abb.jpg",
     "static/media/photo.webp": "/portafolio-erick-damian.github.io/static/media/photo.d942c65fab191e3772bf.webp",
     "index.html": "/portafolio-erick-damian.github.io/index.html",
-    "main.92df725f.css.map": "/portafolio-erick-damian.github.io/static/css/main.92df725f.css.map",
-    "main.0dca970f.js.map": "/portafolio-erick-damian.github.io/static/js/main.0dca970f.js.map",
+    "main.110708b2.css.map": "/portafolio-erick-damian.github.io/static/css/main.110708b2.css.map",
+    "main.89359eed.js.map": "/portafolio-erick-damian.github.io/static/js/main.89359eed.js.map",
     "787.fa182d1e.chunk.js.map": "/portafolio-erick-damian.github.io/static/js/787.fa182d1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92df725f.css",
-    "static/js/main.0dca970f.js"
+    "static/css/main.110708b2.css",
+    "static/js/main.89359eed.js"
   ]
 }
