@@ -1,29 +1,22 @@
-import { useState } from "react";
+import logo from '../image/logo.png'
+
+import { BsFillFileArrowDownFill } from "react-icons/bs";
 
 function NavBar(){
 
     return (
-        <div>
-            <nav id="header" className="sm:block bg-black py-6 " >
-                <div className="container mx-auto">
-                    <div className="flex flex-grow  justify-between" >
-                        <div className="text-white">
-                            <a href="#header" className="text-navbar">Inicio</a>
-                            <a href="#technology" className="text-navbar">Tecnologias</a>
-                            <a href="#project" className="text-navbar">Proyectos</a>
-                            <a href="#contact" className="text-navbar">Contacto</a>
-                            <a href="#network" className="text-navbar">Redes</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <a href="#header">
-                <svg xmlns="http://www.w3.org/2000/svg" className="fixed h-12 w-12 bottom-0 right-0 m-6 hover:text-gray-500" fill="none" viewBox="0 0 24 24"
-                     stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                          d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"/>
-                </svg>
-            </a>
+        <div id='nav' className='h-20 w-full px-28 flex justify-between items-center font-vadodara font-bold block z-40'>
+            <img src={logo} className='w-20' alt=""/>
+            <ul className='flex w-auto justify-center items-center'>
+                <li className='list-none ml-16'><a href="#header" className='hover:bg-forest hover:text-white px-1.5 px-4 rounded-full'>Home</a></li>
+                <li className='list-none ml-16'><a href="#technology" className='hover:bg-forest hover:text-white px-1.5 px-4 rounded-full'>Technology</a></li>
+                <li className='list-none ml-16'><a href="#project" className='hover:bg-forest hover:text-white px-1.5 px-4 rounded-full'>Projects</a></li>
+                <li className='list-none ml-16'><a href="#contact" className='hover:bg-forest hover:text-white px-1.5 px-4 rounded-full'>Contact</a></li>
+                <li className='list-none ml-16'><a href="CV-ErickDamian.pdf" download='CV-ErickDamian.pdf' className='flex items-center hover:bg-forest hover:text-white px-1.5 px-4 rounded-full'>
+                    <BsFillFileArrowDownFill/>
+                    <p className='mx-2'>CV</p>
+                </a></li>
+            </ul>
         </div>
     );
 }

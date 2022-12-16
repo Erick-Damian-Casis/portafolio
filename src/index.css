@@ -1,49 +1,16 @@
+/* font-family: 'Rubik Vinyl', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+/* font-family: 'Titan One', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+/* font-family: 'Oleo Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+/* font-family: 'Hind Vadodara', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.btn-blue{
-    @apply
-    text-white
-    bg-blue-500
-    border
-    hover:bg-blue-600
-    border-blue-500
-    hover:border-blue-600
-    py-2.5 px-5
-    rounded-md
-    transition
-    duration-500
-    ease-in-out
-}
-
- .btn-white{
-    @apply
-    text-white
-    border
-    border-white
-    py-2.5
-    px-5
-    m-2
-    rounded-md
-    hover:bg-white
-    hover:text-gray-800
-    transition
-    duration-500
-    ease-in-out
- }
-
- .text-navbar{
-     @apply
-     py-2.5
-     px-5
-     mr-1
-     rounded-lg
-     hover:bg-gray-700
-     transition
-     duration-500
-     ease-in-out
- }
- html{
-     scroll-behavior: smooth;
- }

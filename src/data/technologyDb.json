@@ -49,6 +49,12 @@
                 "title":"Tarjetas GitHub",
                 "description":"Tarjetas git hub consumiendo el api de git-hub",
                 "url": "https://github.com/Erick-Damian-Casis/selector-rapido"
+            },
+            {
+                "id": 6,
+                "title":"D'gusto",
+                "description":"Sistema de pedidos a domicilio",
+                "url": "https://github.com/Erick-Damian-Casis/d-gusto-frontend"
             }
         ]
     },
@@ -61,16 +67,9 @@
     },
     {
         "id": 4,
-        "name": "Node.js",
-        "language":"JavaScript",
-        "image": "https://www.seekpng.com/png/full/80-803529_vector-javascript-node-js-jpg-black-and-white.png",
-        "description": "Ideado como un entorno de ejecución de JavaScript orientado a eventos asíncronos, está diseñado para crear aplicaciones network escalables."
-    },
-    {
-        "id": 5,
         "name": "React-native",
         "language":"JavaScript",
-        "image": "https://cdn.kinandcarta.com/-/media-assets/images/kincarta/insights/2022/02/react-native/react_hero.png?as=0&iar=0&w=1920&rev=61e1dad3af7e465e9544cf8490237772&extension=webp&hash=15AC1170ADEB7C885F07C74ED6D57E8D   ",
+        "image": "https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/master/images/react-native-logo.png",
         "description": " React Native es un framework para la creación de aplicaciones nativas para iOS y Android.",
         "projects":[{
                 "id": 1,
@@ -85,4 +84,12 @@
                 "url": ""
             }
         ]
-    }]
+    },
+    {
+    "id": 6,
+    "name": "PostgreSQl",
+    "language":"SQL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
+    "description": ""
+}
+]

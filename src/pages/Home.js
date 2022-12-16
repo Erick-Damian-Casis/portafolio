@@ -1,18 +1,25 @@
-import NavBar from "../components/NavBar";
 import Header from "../components/Header";
+import NavBar from "../components/NavBar";
+import About from "../components/About";
+import Contact from "../components/Contact";
 import Technology from "../components/Technology";
 import Project from "../components/Project";
-import Contact from "../components/Contact";
-import Network from "../components/Network";
 
 function Home(){
-    return(<div>
-        <NavBar/>
-        <Header/>
-        <Technology/>
-        <Project/>
-        <Contact/>
-        <Network/>
-    </div>)
+
+    return(
+        <div className='min-h-screen bg-orange-100'>
+            <NavBar/>
+            <Header/>
+            <About/>
+            <hr className='h-0.5 w-auto bg-orange-100 relative my-2'/>
+            <hr className='h-0.5 w-auto mx-10 bg-orange-100 relative'/>
+            <Technology/>
+            <hr className='h-0.5 w-auto mx-10 bg-orange-100 relative top-2'/>
+            <Project/>
+            <hr className='h-0.5 w-auto mx-10 bg-orange-100 relative top-2'/>
+            <Contact/>
+        </div>
+    )
 }
 export default Home;
