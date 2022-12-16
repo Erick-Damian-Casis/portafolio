@@ -2,7 +2,7 @@
   "name": "mi-portafalio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://erick-damian-casis.github.io/portafolio-erick-damian.github.io",
+  "homepage": "http://erick-damian-casis.github.io/portafolio",
   "dependencies": {
     "@headlessui/react": "^1.6.6",
     "@heroicons/react": "^1.0.6",
